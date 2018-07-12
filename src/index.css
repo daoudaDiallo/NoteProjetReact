@@ -1,0 +1,29 @@
+/* Load Open Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: #3765AF;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.loading-container {
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.error {
+    width: 100%;
+    margin: 40px 0;
+    text-align: center;
+    color: #d62942;
+}
+
+/* Remove close icon from input on IE */
+input::-ms-clear {
+    display: none;
+}

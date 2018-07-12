@@ -1,0 +1,26 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react-scripts": "^1.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-confirm-alert": "^2.0.5",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-toastify": "^4.1.0"
+  }
+}
